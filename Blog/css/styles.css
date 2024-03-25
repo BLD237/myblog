@@ -1,0 +1,93 @@
+/* Custom CSS for Blog Landing Page */
+
+/* Navigation Bar */
+.navbar {
+    background-color: #1a1b1a; /* Dark green */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: #a55c40;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: #c47040;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Header */
+.jumbotron {
+    background-image: url('./../images/bg.jpeg'); /* Add your background image path */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.jumbotron p {
+    font-size: 1.2rem;
+    color: #eee; /* Light gray */
+}
+
+.jumbotron .btn {
+    margin-top: 20px;
+    background-color: #FF5722; /* Orange */
+    color: #fff;
+    border: none;
+}
+
+.jumbotron .btn:hover {
+    background-color: #E64A19; /* Darker orange */
+}
+
+/* About and Contact Sections */
+.container {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.col-md-6 h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.col-md-6 p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+/*form{
+    padding: 100px;
+    width: 40%;
+    background-color: #fffdfd;
+    height: 60%;
+    border-radius: 5px;
+    box-shadow: #666;
+}
+input{
+    width: 60%;
+}
+body{
+    background-color: rgb(224, 245, 242);
+}*/
